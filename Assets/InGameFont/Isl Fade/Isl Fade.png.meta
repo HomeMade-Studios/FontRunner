@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: 4ee7d53881f551446993772515ebaf4d
+timeCreated: 1426793927
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Isl Fade_0
+    21300002: Isl Fade_1
+    21300004: Isl Fade_2
+    21300006: Isl Fade_3
+    21300008: Isl Fade_4
+    21300010: Isl Fade_5
+    21300012: Isl Fade_6
+    21300014: Isl Fade_7
+    21300016: Isl Fade_8
+    21300018: Isl Fade_9
+    21300020: Isl Fade_10
+    21300022: Isl Fade_11
+    21300024: Isl Fade_12
+    21300026: Isl Fade_13
+    21300028: Isl Fade_14
+    21300030: Isl Fade_15
+    21300032: Isl Fade_16
+    21300034: Isl Fade_17
+    21300036: Isl Fade_18
+    21300038: Isl Fade_19
+    21300040: Isl Fade_20
+    21300042: Isl Fade_21
+    21300044: Isl Fade_22
+    21300046: Isl Fade_23
+    21300048: Isl Fade_24
+    21300050: Isl Fade_25
+    21300052: Isl Fade_26
+    21300054: Isl Fade_29
+    21300056: Isl Fade_30
+    21300058: Isl Fade_32
+    21300060: Isl Fade_33
+    21300062: Isl Fade_34
+    21300064: Isl Fade_36
+    21300066: Isl Fade_37
+    21300068: Isl Fade_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Isl Fade_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 202
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 202
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 202
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 202
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 202
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 202
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 202
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_7
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 202
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 202
+        width: 10
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_9
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 202
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_10
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 202
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_11
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 202
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 105
+        width: 68
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 105
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 105
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_15
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 105
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_16
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 105
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_17
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 105
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_18
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 105
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_19
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 105
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_20
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 105
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_21
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 105
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_22
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 105
+        width: 68
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_23
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_24
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 8
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_25
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 8
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_26
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 8
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_29
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 8
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_30
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 8
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_32
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 8
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_33
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 8
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_34
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 8
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_36
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 8
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 8
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Isl Fade_39
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 8
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
