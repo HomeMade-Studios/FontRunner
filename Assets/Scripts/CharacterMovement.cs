@@ -33,12 +33,13 @@ public class CharacterMovement : MonoBehaviour {
 			GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
 			isJumping = true;
 		}
-		GetComponent<Rigidbody2D>().velocity = new Vector2 (0, GetComponent<Rigidbody2D>().velocity.y);
+		GetComponent<Rigidbody2D>().velocity = new Vector2 (2.5f, GetComponent<Rigidbody2D>().velocity.y);
 	}
 
-	void OnCollisionEnter2D(Collision2D other){
+	void OnCollisionStay2D(Collision2D other){
 		if (other.gameObject.tag == "Ground") {
-			isJumping = false;
+			if(Input.touchCount == 0)
+				isJumping = false;
 		}
 		if (other.gameObject.tag == "DeathZone") {
 			gameController.Death();
