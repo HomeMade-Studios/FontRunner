@@ -24,7 +24,7 @@ public class MainMenu : MonoBehaviour {
 
 	public void ToLevelSelection(){
 		if(!exitConfirm.activeSelf)
-			Application.LoadLevel ("DifficultySelection");
+			Application.LoadLevel ("LevelSelection");
 	}
 
 	public void ToOptions(){

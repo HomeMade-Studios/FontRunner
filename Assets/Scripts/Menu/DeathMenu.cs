@@ -3,8 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class DeathMenu : MonoBehaviour {
-
-	public string levelDifficulty;
+	
 	// Use this for initialization
 	void Start () {
 	
@@ -29,20 +28,7 @@ public class DeathMenu : MonoBehaviour {
 	}
 
 	public void ToLevelSelection() {
-		switch (levelDifficulty) {
-			case "Easy":
-				Application.LoadLevel ("EasyLevelSelection");
-				break;
-			case "Normal":
-				Application.LoadLevel ("NormalLevelSelection");
-				break;
-			case "Hard":
-				Application.LoadLevel ("HardLevelSelection");
-				break;
-			case "Impossible":
-				Application.LoadLevel ("ImpossibleLevelSelection");
-				break;
-		}
+		Application.LoadLevel ("LevelSelection");
 	}
 
 	public void ToMainMenu() {
