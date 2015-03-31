@@ -3,16 +3,20 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class GameController : MonoBehaviour {
-
-	bool isDead;
+	
 	public string levelCode;
 	public GameObject deathMenu;
-	GameObject scoreCounter;
+	public GameObject groundSection;
+	GameObject scoreCounter, ground;
+	public float groundSpeed;
 	int score;
+	bool isDead;
+
 	// Use this for initialization
 	void Start () {
 		score = 0;
 		isDead = false;
+		ground = GameObject.FindGameObjectWithTag ("Ground");
 		scoreCounter = GameObject.FindGameObjectWithTag ("Score");
 		scoreCounter.GetComponent<Text> ().text = "0";
 		InvokeRepeating ("IncreaseScore", 1f, 0.1f);
@@ -37,8 +41,23 @@ public class GameController : MonoBehaviour {
 		deathMenu.SetActive(true);
 		deathMenu.GetComponent<DeathMenu>().SetScore (score, levelCode);
 	}
+
+	public void GroundSectionInstantiate(float groundPosition){
+		GameObject instantiateObject = (GameObject)Instantiate (groundSection, new Vector3 (0, 0, 0), Quaternion.identity);
+		instantiateObject.transform.SetParent (ground.GetComponent<Transform> ());
+		instantiateObject.transform.localPosition = new Vector2 (6200, 0);
+		instantiateObject.transform.localScale = new Vector3 (1, 1, 1);
+	}
 	
 	public bool DeathCheck() {
 		return isDead;
+	}
+
+	public void IncreaseGroundSpeed(){
+		groundSpeed += 5;
+	}
+
+	public float GetGroundSpeed(){
+		return groundSpeed; 
 	}
 }

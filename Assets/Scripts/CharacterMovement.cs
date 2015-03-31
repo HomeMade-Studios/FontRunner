@@ -33,17 +33,25 @@ public class CharacterMovement : MonoBehaviour {
 			GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
 			isJumping = true;
 		}
-		GetComponent<Rigidbody2D>().velocity = new Vector2 (2.5f, GetComponent<Rigidbody2D>().velocity.y);
+		GetComponent<Rigidbody2D>().velocity = new Vector2 (2f, GetComponent<Rigidbody2D>().velocity.y);
 	}
 
 	void OnCollisionStay2D(Collision2D other){
 		if (other.gameObject.tag == "Ground") {
-			if(Input.touchCount == 0)
+			if (Input.touchCount == 0)
 				isJumping = false;
 		}
+	}
+	void OnCollisionEnter2D(Collision2D other){
 		if (other.gameObject.tag == "DeathZone") {
 			gameController.Death();
 			Destroy(this.gameObject);
+		}
+	}
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.gameObject.tag == "GroundSection") {
+			gameController.GroundSectionInstantiate(other.transform.position.x);
+			gameController.IncreaseGroundSpeed();
 		}
 	}
 }

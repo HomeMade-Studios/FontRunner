@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class GroundMovement : MonoBehaviour {
-
-	public int groundSpeed;
+	
 	GameController gameController;
 	// Use this for initialization
 	void Start () {
@@ -13,7 +12,7 @@ public class GroundMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (!gameController.DeathCheck ())
-			GetComponent<Rigidbody2D> ().velocity = new Vector2 (-groundSpeed, 0);
+			GetComponent<Rigidbody2D> ().velocity = new Vector2 (-gameController.GetGroundSpeed(), 0);
 		else 
 			if(GetComponent<Rigidbody2D> ().velocity.x < 0){
 				GetComponent<Rigidbody2D> ().velocity = new Vector2 (GetComponent<Rigidbody2D> ().velocity.x + 1, 0);
